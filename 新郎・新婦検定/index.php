@@ -17,7 +17,7 @@ $_SESSION["question_count"] = 0; ?>
   <main>
     <h1>新郎・新婦検定</h1>
       <form action="start.php" method="post">
-        <div class="name1"><p class="name">名前</p>
+        <div class="name1"><p class="name">名前<span class="must">(必須)</span></p>
         <input type="text" class="textbox" name="name"></div>
           <div class="center">
             <p>下の【スタート】を押すと問題が4択で表示されますので、できるだけ早くお答えください。<br>なお、【スタート】を押してから【終了】を押すまでの時間が計測されていますのでそれによって点数も変わってきます。</p> 

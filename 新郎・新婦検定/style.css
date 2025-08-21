@@ -152,9 +152,6 @@ table tr:nth-child(even) {
   background-color: rgba(245, 223, 225, 0.431); /* 偶数行に薄い色を付ける（見やすさUP） */
 }
 
-table tr:hover {
-  background-color: #f1f1f1; /* ホバー時に色が変わる */
-}
 
 .in_form p{
   margin-bottom: 20px;
@@ -168,3 +165,8 @@ p.last_check{
   margin-top: 80px;
   text-align: center;
 }
+
+span.must{
+  color: red;
+}
+

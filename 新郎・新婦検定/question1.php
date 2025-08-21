@@ -45,7 +45,6 @@ session_start();
     </div>
     <p class="home"><a href="index.php">最初に戻る</a></p>
   </main>
-  </main>
 
   <footer>
     <a href="index.php"><img src="image/image.png" alt="ロゴ" class="logo"></a> 

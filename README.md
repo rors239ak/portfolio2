@@ -14,14 +14,14 @@ PHP と MySQL を使って動作し、複数の質問に答えることで結果
 - PHP 8.0+
 - MySQL
 - XAMPP
+- iPhone・スマートフォンサイズの画面対応
+
 
 ## 使い方
 
 1. このリポジトリをクローン
 2. `htdocs` フォルダに配置
-3. `http://localhost/新郎・新婦検定/index.php` にアクセス
+3. db.phpのdbnameの部分とpasword部分を自身の物に変更
+4. `http://localhost/新郎・新婦検定/index.php` にアクセス
 
-## 今後の改善点
 
-- 問題をデータベース管理に変更
-- デザインの強化（CSS/Bootstrap 導入予定）

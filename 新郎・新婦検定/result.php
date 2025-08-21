@@ -1,10 +1,14 @@
 <?php
+require 'db.php';
 // ← 先頭に空白や改行ナシ！
 if (session_status() === PHP_SESSION_NONE) session_start();
 
 if (!isset($_SESSION['start_time'])) {
   header('Location: index.php'); exit;
 }
+
+
+
 
 // 【仮】終了時刻いまこの瞬間（本番は end.php から渡す）
 $end = microtime(true);
@@ -53,6 +57,7 @@ $last_total = $total - $bonus + 10;
 // 100を超えないようにする
 $last_total = round(min($last_total, 100));
 $last_total = round(max($last_total, 0));
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -263,7 +268,7 @@ $last_total = round(max($last_total, 0));
 
       <p>かかった時間：<?= htmlspecialchars($disp, ENT_QUOTES, 'UTF-8') ?></p>
     </div>
-    <p class="home"><a href="index.php">最初に戻る</a></p>
+    <p class="home"><a href="list.php">みんなの結果へ</a></p>
   </main>
 
   <footer>
